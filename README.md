@@ -74,7 +74,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 </p>
 
 ```console
-    ~$ git clone https://github.com/h0daka/Miku-Nakano
+    ~$ git clone https://github.com/Dushsmanxroni/Miku-Nakano
     ~$ cd Miku-Nakano
     ~$ cp sample_config.py config.py
 ```
