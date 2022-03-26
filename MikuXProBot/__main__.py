@@ -57,10 +57,10 @@ buttons = [
     [
                         InlineKeyboardButton(
                              text="🏹 Summon Me",
-                             url="https://t.me/MikuXProBot?startgroup=true"),
+                             url="https://t.me/AVIVEKbot?startgroup=true"),
                         InlineKeyboardButton(
                              text="🗞️ Repo",
-                             url="https://github.com/h0daka/Miku-Nakano"),
+                             url="https://github.com/Dushsmanxroni/Miku-Nakano"),
                     ],
                    [                  
                        InlineKeyboardButton(
@@ -81,7 +81,7 @@ HELP_STRINGS = """
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-For all command use /* [or](https://telegra.ph/file/85a404cf9edbd797c829f.jpg) *!*
+For all command use /* [or](https://telegra.ph/file/528d7681f4c2017bd1542.jpg) *!*
 """.format(
     dispatcher.bot.first_name,""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
@@ -214,10 +214,10 @@ def start(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://t.me/MikusSupport"),
+                             url=f"https://t.me/Jinkazama_Support"),
                        InlineKeyboardButton(
                              text="🛰️ Updates",
-                             url="https://t.me/MikuXUpdates")
+                             url="https://t.me/jinkazama_Support")
                      ] 
                 ]
             ),
@@ -275,7 +275,7 @@ def help_button(update, context):
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Back",
                                        callback_data="help_back"),
                   InlineKeyboardButton(text="Support",
-                                       url="t.me/Mikussupport")]]))
+                                       url="t.me/Jinkazama_Support")]]))
 
         elif prev_match:
             curr_page = int(prev_match.group(1))
